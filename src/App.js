@@ -12,9 +12,9 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<Inicio />} />
-        <Route path='/Hombre' element={<Hombre />} />
-        <Route path='/Mujer' element={<Mujer />} />
+        <Route path='/' element={<Inicio saludo1="dar click en hombre o mujer" />} />
+        <Route path='/Hombre' element={<Hombre saludo="item list container hombre" />} />
+        <Route path='/Mujer' element={<Mujer saludo2="item list container mujer" />} />
 
       </Routes>
     </Router>

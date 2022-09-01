@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Mujer = () => {
+const Mujer = ({saludo2}) => {
   return (
     <div>
-        <h1>estos son jeans de mujeres</h1>
+        <h1>{saludo2}</h1>
     </div>
   )
 }
